@@ -16,7 +16,7 @@ function App() {
     "You make me complete 💫",
     "You're my dream come true 🌈",
     "My love grows stronger each day🌹",
-    "You're my dream come true 🌈",
+    "Happy to have you in my life 😊",
   ];
 
   const positions = [
@@ -111,7 +111,7 @@ function App() {
 
 
           {showProposal && (
-            <div className="fixed bottom-16 sm:bottom-28 left-0 right-0 flex justify-center items-end animate-slideUpFade z-30">
+            <div className="fixed bottom-16 md:mb-24 mb-40  left-0 right-0 flex justify-center items-end animate-slideUpFade z-30">
               <div className="relative w-64 h-64 sm:w-64 sm:h-64 mb-4 sm:mb-8">
                 <iframe
                   src="https://tenor.com/embed/17914581950286182436"
@@ -125,7 +125,7 @@ function App() {
 
 
           <div 
-            className={`relative cursor-pointer transform transition-transform hover:scale-110
+            className={`relative cursor-pointer transform transition-transform hover:scale-110 ml-8
               ${isAnimating ? 'animate-heartbeat' : ''}`}
             onClick={handleHeartClick}
           >
@@ -137,7 +137,7 @@ function App() {
           </div>
 
           {showInitialText && (
-            <p className="text-gray-600 font-light animate-fadeIn mt-4 sm:mt-8 text-sm sm:text-base">
+            <p className="text-gray-600 font-light animate-fadeIn ml-3 mt-4 sm:mt-8 text-sm sm:text-base">
               Click the heart to see it bloom
             </p>
           )}
